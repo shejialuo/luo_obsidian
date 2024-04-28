@@ -172,3 +172,17 @@ It turns out that lists of simple words are frequently in Perl programs. The `qw
 ```perl
 qw(fred barney betty wilma dino)
 ```
+
+Perl treats `qw` like a single-quoted string. The whitespace (characters like spaces, tabs, and newlines) disappear and whatever is left becomes the list of items. Since whitespace is insignificant, here's another (but unusual) way to write that same list:
+
+```perl
+qw(fred
+  barney     betty
+wilma dino)
+```
+
+Perl lets you choose any punctuation character as the delimiter.
+
+```perl
+qw! fred barney betty wilma dino !
+```
