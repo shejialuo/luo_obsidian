@@ -1,0 +1,6 @@
+{
+  "[markdown]": {
+    "editor.rulers": [90]
+  },
+  "vim.textwidth": 90
+}
