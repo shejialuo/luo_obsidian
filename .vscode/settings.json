@@ -1,6 +1,6 @@
 {
   "[markdown]": {
-    "editor.rulers": [90]
+    "editor.rulers": [80]
   },
-  "vim.textwidth": 90
+  "vim.textwidth": 80
 }
