@@ -12,11 +12,14 @@ if TYPE_CHECKING:
     from .chat import ChatMember
 ```
 
-We first look at the definition of the `TYPE_CHECKING`. See [Python official document](https://docs.python.org/3/library/typing.html#typing.TYPE_CHECKING).
+We first look at the definition of the `TYPE_CHECKING`. See
+[Python official document](https://docs.python.org/3/library/typing.html#typing.TYPE_CHECKING).
 
-> A special constant that is assumed to be `True` by 3rd party static type checkers. It is `False` at runtime.
+> A special constant that is assumed to be `True` by 3rd party static type checkers. It
+> is `False` at runtime.
 
-So the type is an illusion made by Python. In runtime, we do not care about the type. But when coding, type is an important thing.
+So the type is an illusion made by Python. In runtime, we do not care about the type. But
+when coding, type is an important thing.
 
 And the code uses `NewType` helper to create distinct types.
 
@@ -32,7 +35,8 @@ ExtraCommandName = NewType('ExtraCommandName', str)
 + `ReactionName`: Canonical representation of a reaction, usually an emoji.
 + `ModuleID`: Module ID, including instance ID after `#` if available.
 + `InstanceID`: Instance ID of a module.
-+ `ChatID`: Chat ID from slave channel or middleware, applicable to both chat and chat members.
++ `ChatID`: Chat ID from slave channel or middleware, applicable to both chat and chat
+members.
 + `MessageID`: Message ID from slave channel or middleware.
 + `ExtraCommandName`: Command name of additional features.
 

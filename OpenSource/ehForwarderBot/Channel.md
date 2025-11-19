@@ -1,9 +1,3 @@
----
-tags:
-  - Open Source
-  - EFB
----
-
 # Channel
 
 There are two kinds of channel in ehForwarderBot.

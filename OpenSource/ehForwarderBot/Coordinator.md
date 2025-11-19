@@ -2,7 +2,8 @@
 
 ![[README#^95df96]]
 
-In the code, the coordinator is the leader. It organizes the master channel, slave channels and related data structures for master channel and slave channel.
+In the code, the coordinator is the leader. It organizes the master channel, slave
+channels and related data structures for master channel and slave channel.
 
 ## Data Structures
 
